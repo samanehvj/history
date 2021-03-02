@@ -59,7 +59,9 @@ function PhotoHeader({ currentMemory }) {
 
   return [
     <H4 key="headerCity">
-      <b>{city}</b> (<i>{`${long}, ${lat}`}</i>)
+      <a href={`/nearby?coordinates=${lat},${long}`}>
+        <b>{city}</b> (<i>{`${long}, ${lat}`}</i>)
+      </a>
     </H4>,
     <P key="headerLocation">
       {location} <LinkToReference reference={reference} />
