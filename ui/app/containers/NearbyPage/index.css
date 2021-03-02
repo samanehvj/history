@@ -1,0 +1,41 @@
+.big-img{
+  float: right;
+  height: 400px;
+  margin-right: 50px;
+
+}
+
+.title{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.title:hover{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: magenta;
+}
+
+li {
+  list-style-type: none;
+}
+
+p{
+  font-size: 30px;
+  font-weight: 300;
+  font-family: fantasy;
+}
+
+.thumb-div {
+  width: 300px;
+  height: 500px;
+  border: 1px solid;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+.thumb-div .active {
+  border: 3px solid magenta;
+
+}
