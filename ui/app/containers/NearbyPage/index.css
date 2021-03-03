@@ -1,18 +1,17 @@
 .big-img{
   float: right;
-  height: 400px;
-  margin-right: 50px;
-
+  height: 450px;
+  margin-right: 350px;
 }
 
 .title{
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
   color: white;
 }
 
 .title:hover{
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
   color: magenta;
 }
@@ -25,17 +24,24 @@ p{
   font-size: 30px;
   font-weight: 300;
   font-family: fantasy;
+  margin-left: 50px;
+}
+.thumb-div img{
+  width: 150px; /* Set a small width */
 }
 
 .thumb-div {
-  width: 300px;
+  width: 350px;
   height: 500px;
-  border: 1px solid;
+  margin: 20px;
+  border: 1px dotted;
   overflow-y: scroll;
   text-align: center;
 }
 
 .thumb-div .active {
   border: 3px solid magenta;
+  border-radius: 20px;
 
 }
+
