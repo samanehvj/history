@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import './index.css';
 
 import A from '../A';
 
@@ -59,7 +60,7 @@ function PhotoHeader({ currentMemory }) {
 
   return [
     <H4 key="headerCity">
-      <a href={`/nearby?coordinates=${lat},${long}`}>
+      <a className="link-title" href={`/nearby?coordinates=${lat},${long}`}>
         <b>{city}</b> (<i>{`${long}, ${lat}`}</i>)
       </a>
     </H4>,
